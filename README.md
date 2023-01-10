@@ -20,7 +20,7 @@
 
 This simple HTML file uses best practices for accessility and programming.
 
-[Deployed Basic HTML/CSS Link ](https://volodya1989.github.io/goit-markup-hw-02/)
+[Deployed Basic HTML/CSS Link ](https://volodya1989.github.io/goit-markup-hw-03/)
 
 
 
