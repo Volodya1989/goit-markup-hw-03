@@ -1,6 +1,6 @@
 # FLEX
 
-![badmath](https://img.shields.io/badge/basic-FLEX-blue)
+![badmath](https://img.shields.io/badge/basic-FLEX-red)
 
 ![Contributor Covenant](https://img.shields.io/badge/license-MIT-brightgreen)
 
