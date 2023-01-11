@@ -36,6 +36,10 @@ body {
   width: 1128px;
   padding-left: 15px;
   padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+
   outline: red dashed 2px;
 }
 
@@ -127,7 +131,8 @@ a.current {
   margin-top: 0;
   margin-bottom: 8px;
 }
-.sub-title + p {
+.sub-title + p,
+.footer + p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -137,7 +142,7 @@ a.current {
   margin-bottom: 72px;
 }
 
-.img-team{
+.img-team {
   margin-bottom: 32px;
 }
 
@@ -154,6 +159,7 @@ a.current {
 }
 
 .footer p {
+  padding-top: 16px;
   color: #e7e9fc;
 }
 
@@ -182,4 +188,8 @@ footer,
 .project-card:focus {
   background-blend-mode: soft-light;
   mix-blend-mode: normal;
+}
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
