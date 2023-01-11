@@ -127,9 +127,14 @@ a.current {
   margin-top: 0;
   margin-bottom: 8px;
 }
-.values p{
+.values p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.section-three .title {
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 
 /* footer section */
