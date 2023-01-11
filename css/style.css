@@ -29,6 +29,12 @@ body {
   line-height: var(--line-height-primary);
   letter-spacing: 0.04em;
 }
+.container{
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: red dashed 2px;
+}
 
 /* title's color */
 .title,
