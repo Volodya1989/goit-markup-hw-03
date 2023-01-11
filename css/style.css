@@ -123,18 +123,22 @@ a.current {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title-values {
+.sub-title {
   margin-top: 0;
   margin-bottom: 8px;
 }
-.values p {
+.sub-title + p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.section-three .title {
+.section .description {
   margin-top: 0;
   margin-bottom: 72px;
+}
+
+.img-team{
+  margin-bottom: 32px;
 }
 
 /* footer section */
@@ -157,7 +161,7 @@ footer,
 .section-one {
   background: var(--primary-color);
 }
-.section-three {
+.section-four {
   background: var(--bg-cloud-color);
 }
 
