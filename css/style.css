@@ -187,7 +187,7 @@ p {
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .filter-item:not(:last-child) {
@@ -196,7 +196,6 @@ p {
 .section .title-about,
 .title-team {
   margin-top: var(--padding-margin-none);
-  margin-bottom: var(--padding-margin-none);
   margin-bottom: 72px;
   text-align: center;
 }
@@ -228,7 +227,7 @@ p {
 }
 
 .footer p {
-  padding-top: 16px;
+  margin-top: 16px;
   color: var(--bg-cornflower-color);
 }
 
