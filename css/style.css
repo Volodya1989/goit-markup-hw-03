@@ -275,6 +275,10 @@ footer,
   margin-right: 24px;
   margin-bottom: 48px;
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 .image {
   padding-bottom: 0;
 }
