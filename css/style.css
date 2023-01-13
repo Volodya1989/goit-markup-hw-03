@@ -112,6 +112,9 @@ a.current {
   color: var(--secondary-color);
   font-weight: 500;
 }
+.contacts{
+  color: var(--primary-color);
+}
 .contact-list {
   display: flex;
   margin-left: auto;
