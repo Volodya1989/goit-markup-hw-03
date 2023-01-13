@@ -66,6 +66,24 @@ body {
 }
 
 /* header section */
+
+.list {
+  list-style: var(--none-list-bullets);
+  padding: 0;
+  margin: 0;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  margin-left: 76px;
+}
+.navigation .nav-item:not(:last-child) {
+  margin-right: 40px;
+}
 .header a.logo {
   font-weight: 800;
   font-family: var(--brand-secondary-fonts);
@@ -76,11 +94,6 @@ body {
   color: var(--bg-iris-color);
 }
 
-.list {
-  list-style: var(--none-list-bullets);
-  padding: 0;
-  margin: 0;
-}
 a.current {
   color: var(--bg-ocean-color);
 }
@@ -88,9 +101,21 @@ a.current {
   text-decoration: var(--none-text-decoration);
   color: var(--primary-color);
 }
-.nav-link {
+.header-links {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--secondary-color);
   font-weight: 500;
+}
+.contact-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-list .nav-item + .nav-item {
+  margin-left: 40px;
 }
 
 .logo-header {
