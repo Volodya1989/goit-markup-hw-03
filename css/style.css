@@ -198,6 +198,7 @@ p {
   margin-top: var(--padding-margin-none);
   margin-bottom: 72px;
   text-align: center;
+  font-size: 36px;
 }
 
 .list-about,
@@ -217,7 +218,7 @@ p {
 /* footer section */
 .logo.footer {
   font-family: var(--brand-secondary-fonts);
-  height: 22px;
+  font-size: 18px;
   line-height: 1.17;
   font-weight: 800;
   color: var(--bg-iris-color);
