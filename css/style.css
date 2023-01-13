@@ -17,7 +17,7 @@
   --primary-padding-32: 32px;
   --margin-24: 24px;
   --margin-48: 48px;
-  --padding-margin-none:0;
+  --padding-margin-none: 0;
 }
 body {
   font-family: var(--brand-primary-fonts);
@@ -54,6 +54,9 @@ p {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.section-three {
+  padding-top: var(--padding-margin-none);
 }
 
 /* title's color */
@@ -105,24 +108,23 @@ p {
   color: var(--bg-iris-color);
 }
 
-a.current {
+.navigation a.current {
   color: var(--bg-ocean-color);
 }
 .link {
   text-decoration: var(--none-text-decoration);
   color: var(--primary-color);
 }
+.navigation .header-links {
+  color: var(--secondary-color);
+  font-weight: 500;
+}
 .header-links {
   display: block;
   padding-top: var(--margin-24);
   padding-bottom: var(--margin-24);
+}
 
-  color: var(--secondary-color);
-  font-weight: 500;
-}
-.contacts {
-  color: var(--primary-color);
-}
 .contact-list {
   display: flex;
   margin-left: auto;
@@ -193,9 +195,9 @@ a.current {
 }
 .section .title-about,
 .title-team {
-  margin-top:var(--padding-margin-none);
+  margin-top: var(--padding-margin-none);
   margin-bottom: var(--padding-margin-none);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
 }
 
