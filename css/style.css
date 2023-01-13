@@ -198,12 +198,16 @@ a.current {
   display: flex;
   justify-content: center;
 }
+.team-role {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .team-description,
 .prj-description {
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 32px;
 }
 /* footer section */
 .logo.footer {
