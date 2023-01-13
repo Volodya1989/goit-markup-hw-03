@@ -10,6 +10,7 @@
   --bg-iris-color: #4d5ae5;
   --bg-cloud-color: #f4f4fd;
   --bg-ocean-color: #404bbf;
+  --bg-cornflower-color: #e7e9fc;
   --font-size-primary: 16px;
   --line-height-primary: 1.5;
   --letter-spacing-primary: 0.02em;
@@ -30,7 +31,6 @@ body {
   line-height: var(--line-height-primary);
   letter-spacing: 0.04em;
   border-radius: 4px;
-  offset: 0px, 4px;
 }
 .container {
   width: 1128px;
@@ -40,7 +40,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  outline: red dashed 2px;
+  /* outline: red dashed 2px; */
 }
 
 .section {
@@ -129,6 +129,7 @@ a.current {
 
 /* index page main section */
 .section-one {
+  border-top: solid 1px var(--bg-cornflower-color);
   text-align: center;
 }
 .value-description,
@@ -162,15 +163,42 @@ a.current {
   margin-top: 0;
   margin-bottom: 8px;
 }
+.list-values {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.value-item:not(:last-child),
+.about-item:not(:last-child),
+.team-member:not(:last-child) {
+  margin-right: 24px;
+}
 
-.section .description,
-.btn-filter {
+.filter-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 72px;
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 48px;
+}
+.section .title-about,
+.title-team {
   margin-top: 0;
-  margin-bottom: 72px;
+  margin-bottom: 0;
+  padding-bottom: 72px;
+  text-align: center;
 }
 
 .image {
   margin-bottom: 32px;
+}
+.list-about,
+.list-team {
+  display: flex;
+  justify-content: center;
 }
 
 .team-description,
@@ -193,13 +221,14 @@ a.current {
 
 .footer p {
   padding-top: 16px;
-  color: #e7e9fc;
+  color: var(--bg-cornflower-color);
 }
 
 footer,
 .section-one {
   background: var(--primary-color);
 }
+
 .section-four {
   background: var(--bg-cloud-color);
 }
