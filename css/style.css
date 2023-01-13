@@ -245,13 +245,26 @@ footer,
 }
 .prj-title {
   padding-top: 32px;
+  clear: both;
 }
 .project-list {
   display: flex;
   flex-wrap: wrap;
 }
+.image {
+  display: block;
+}
+.prj-explanation {
+  border-bottom: solid 1px var(--bg-cornflower-color);
+  border-left: solid 1px var(--bg-cornflower-color);
+  border-right: solid 1px var(--bg-cornflower-color);
+  padding-left: 16px;
+}
 .prj-item {
   width: 360px;
+}
+.image {
+  padding-bottom: 0;
 }
 
 .prj-item:not(:nth-child(3n)) {
